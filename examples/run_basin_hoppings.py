@@ -1,6 +1,6 @@
 import sys
 import os
-path=os.path.realpath("../sourcefiles/")
+path=os.path.realpath("../gcbh/")
 sys.path.insert(0,path)
 
 from ase.io import read
