@@ -8,7 +8,7 @@ from gcbasin3_for_PtH import GrandCanonicalBasinHopping
 from pygcga import mutation_atoms,add_molecule_on_cluster,remove_one_adsorbate
 
 if not os.path.isfile("NiAlH_jea.eam.alloy"):
-    print("You should download file 'NiAlH_jea.eam.alloy' from https://www.ctcms.nist.gov/potentials/system/Al before runing this example")
+    print("You should download file 'NiAlH_jea.eam.alloy' into this folder\n from https://www.ctcms.nist.gov/potentials/system/Al before runing this example")
     exit()
 
 filescopied=['opt.py','NiAlH_jea.eam.alloy'] # files required to complete an optimization
