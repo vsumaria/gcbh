@@ -3,8 +3,7 @@ import random
 import os
 import sys
 from ase import Atoms
-path=os.path.realpath("/home/vsumaria/software/gcbh/sourcefiles/")
-sys.path.insert(0,path)
+#make sure you have pygcga in your pythonpath
 from pygcga.checkatoms import CheckAtoms
 
 def initial_structure_gen(surface, cov , nsurf, coordinates, connectivities, normals, bond_range, max_trial=10, dr=0.05):
