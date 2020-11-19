@@ -5,6 +5,7 @@ import numpy as np
 from shapely.geometry import Polygon, Point
 from collections import defaultdict
 import random
+# pip install Shapely -- to install Shapely
 from shapely.geometry.linestring import LineString
 import numpy as np
 from pygcga.topology import Topology
