@@ -1,2 +1,0 @@
-pwd
-python opt.py
